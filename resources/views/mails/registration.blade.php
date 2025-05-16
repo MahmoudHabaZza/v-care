@@ -1,0 +1,1 @@
+<h2>Thanks For Registration {{$user->name}}</h2>

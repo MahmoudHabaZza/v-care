@@ -1,0 +1,200 @@
+{
+    "countries": [
+      {
+        "name": "Egypt",
+        "cities": [
+          {
+            "name": "Cairo",
+            "lat": 30.033333,
+            "long": 31.233334,
+            "zones": [
+              {
+                "name": "Maadi",
+                "lat": 30.06263,
+                "long": 31.24967
+              },
+              {
+                "name": "Zamalek",
+                "lat": 30.06263,
+                "long": 31.24967
+              }
+            ]
+          },
+          {
+            "name": "Alexandria",
+            "lat": 31.2156,
+            "long": 29.9553,
+            "zones": [
+              {
+                "name": "Gleem",
+                "lat": 31.215,
+                "long": 29.925
+              },
+              {
+                "name": "Stanley",
+                "lat": 31.215,
+                "long": 29.925
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "United States",
+        "cities": [
+          {
+            "name": "New York",
+            "lat": 40.712776,
+            "long": -74.005974,
+            "zones": [
+              {
+                "name": "Manhattan",
+                "lat": 40.7831,
+                "long": -73.9712
+              },
+              {
+                "name": "Brooklyn",
+                "lat": 40.6782,
+                "long": -73.9442
+              }
+            ]
+          },
+          {
+            "name": "Los Angeles",
+            "lat": 34.052235,
+            "long": -118.243683,
+            "zones": [
+              {
+                "name": "Hollywood",
+                "lat": 34.0928,
+                "long": -118.3287
+              },
+              {
+                "name": "Venice",
+                "lat": 33.9850,
+                "long": -118.4695
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Russia",
+        "cities": [
+          {
+            "name": "Moscow",
+            "lat": 55.751244,
+            "long": 37.618423,
+            "zones": [
+              {
+                "name": "Tverskoy",
+                "lat": 55.7667,
+                "long": 37.6167
+              },
+              {
+                "name": "Arbat",
+                "lat": 55.7480,
+                "long": 37.5870
+              }
+            ]
+          },
+          {
+            "name": "Saint Petersburg",
+            "lat": 59.937500,
+            "long": 30.308611,
+            "zones": [
+              {
+                "name": "Central",
+                "lat": 59.9343,
+                "long": 30.3351
+              },
+              {
+                "name": "Nevsky",
+                "lat": 59.9343,
+                "long": 30.3351
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo",
+            "lat": 35.6762,
+            "long": 139.6503,
+            "zones": [
+              {
+                "name": "Shinjuku",
+                "lat": 35.6938,
+                "long": 139.7034
+              },
+              {
+                "name": "Shibuya",
+                "lat": 35.6580,
+                "long": 139.7016
+              }
+            ]
+          },
+          {
+            "name": "Osaka",
+            "lat": 34.6937,
+            "long": 135.5023,
+            "zones": [
+              {
+                "name": "Namba",
+                "lat": 34.6648,
+                "long": 135.5013
+              },
+              {
+                "name": "Umeda",
+                "lat": 34.7054,
+                "long": 135.4979
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "France",
+        "cities": [
+          {
+            "name": "Paris",
+            "lat": 48.8566,
+            "long": 2.3522,
+            "zones": [
+              {
+                "name": "Montmartre",
+                "lat": 48.8867,
+                "long": 2.3431
+              },
+              {
+                "name": "Latin Quarter",
+                "lat": 48.8470,
+                "long": 2.3470
+              }
+            ]
+          },
+          {
+            "name": "Lyon",
+            "lat": 45.7640,
+            "long": 4.8357,
+            "zones": [
+              {
+                "name": "Presqu'île",
+                "lat": 45.7597,
+                "long": 4.8349
+              },
+              {
+                "name": "Croix-Rousse",
+                "lat": 45.7712,
+                "long": 4.8320
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

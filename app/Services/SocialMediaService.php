@@ -4,7 +4,7 @@ namespace App\Services;
 
 use App\Repositories\Interfaces\SocialMediaRepositoryInterface;
 
-class SocialMediaServices {
+class SocialMediaService {
     public function __construct(public SocialMediaRepositoryInterface $repository) { // model binding => service container
     }
     public function getAll()

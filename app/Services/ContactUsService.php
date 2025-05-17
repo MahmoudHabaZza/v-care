@@ -2,10 +2,10 @@
 
 namespace App\Services;
 
-use App\Repositories\Interfaces\{{ model }}RepositoryInterface;
+use App\Repositories\Interfaces\ContactUsRepositoryInterface;
 
-class {{ model }}Service {
-    public function __construct(public {{ model }}RepositoryInterface $repository) { // model binding => service container
+class ContactUsService {
+    public function __construct(public ContactUsRepositoryInterface $repository) { // model binding => service container
     }
     public function getAll()
     {

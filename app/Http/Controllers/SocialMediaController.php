@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\SocialMediaRequest;
 use App\Http\Resources\SocialMediaResource;
-use App\Services\SocialMediaServices;
+use App\Services\SocialMediaService;
 use Illuminate\Http\Request;
 
 class SocialMediaController extends Controller
 {
-    public function __construct(public SocialMediaServices $service){
+    public function __construct(public SocialMediaService $service){
     }
     public function index(){
         return $this->successResponse(SocialMediaResource::collection($this->service->getAll()));

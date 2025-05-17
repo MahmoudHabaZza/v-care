@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\DoctorRoleController;
 use App\Http\Controllers\SocialMediaController;
 use Illuminate\Http\Request;
@@ -25,3 +26,5 @@ Route::post('register',[RegisterController::class,'store']);
 
 // Social Media Routes
 Route::resource('social_media',SocialMediaController::class)->except(['create','edit']);
+// Contact Us Routes
+Route::resource('contact_us',ContactUsController::class)->except(['create','edit']);

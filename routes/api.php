@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\DoctorRoleController;
+use App\Http\Controllers\SocialMediaController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,6 @@ Route::controller(DoctorRoleController::class)->middleware('auth:sanctum')->pref
 
 
 Route::post('register',[RegisterController::class,'store']);
+
+// Social Media Routes
+Route::resource('social_media',SocialMediaController::class)->except(['create','edit']);

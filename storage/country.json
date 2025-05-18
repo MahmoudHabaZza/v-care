@@ -17,6 +17,11 @@
                 "name": "Zamalek",
                 "lat": 30.06263,
                 "long": 31.24967
+              },
+              {
+                "name": "Nasr City",
+                "lat" : 30.0538,
+                "long" : 31.3464
               }
             ]
           },

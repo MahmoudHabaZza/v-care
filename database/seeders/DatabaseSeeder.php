@@ -20,6 +20,9 @@ class DatabaseSeeder extends Seeder
             SocialMediaSeeder::class,
             ContactUsSeeder::class,
             DoctorRoleSeeder::class,
+            CountrySeeder::class,
+            SpecialitySeeder::class,
+            FacilitySeeder::class,
         ]);
     }
 }

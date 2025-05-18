@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('facilities', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('facility_admin_id')->constrained('facility_admins')->cascadeOnDelete();
+            $table->string('name');
+            $table->foreignId('facility_admin_id')->nullable()->constrained('facility_admins')->nullOnDelete();
             $table->enum('type',[0,1])->default(0);
             $table->string('address');
             $table->text('address_link')->nullable();
